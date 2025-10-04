@@ -1,0 +1,11 @@
+{
+  "name": "vercel-node-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "koa": "^2.14.2",
+    "@vercel/node": "^1.12.0"
+  }
+}
