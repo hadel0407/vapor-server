@@ -1,11 +1,15 @@
 {
-  "name": "vercel-node-demo",
+  "name": "vapor-backend",
   "version": "1.0.0",
   "scripts": {
     "build": "node index.js"
   },
   "dependencies": {
     "koa": "^2.14.2",
+    "@koa/router": "^10.1.1",
+    "koa-bodyparser": "^4.3.0",
+    "@supabase/supabase-js": "^2.25.0",
+    "google-auth-library": "^9.0.0",
     "@vercel/node": "^1.12.0"
   }
 }
